@@ -8,9 +8,14 @@
 .page {
   background-color: #e5e5e5;
   color: var(--primary-text-color);
+  font-family: roboto, sans-serif;
+  letter-spacing: 0.03em;
+
 }
+/* Logo */
 .logo {
-  color: var(--primary-text-color);
+  color: var(--accent-color);
+  font-family: raleway; sans-serif;
 }
 .logo-2 {
   color: var(--title-text-color);
