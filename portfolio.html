@@ -1,27 +1,26 @@
 <!DOCTYPE html>
 <html lang="ru">
 
-<head>
+<head class=head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head class=head>
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+</head>
 
-<body>
+<body class="page">
     <!---Шапка сайта-->
     <header>
         <nav>
-            <a href="/">
-                WebStudio
-            </a>
-            <ul>
+        <a href="/" class="logo"> Web<span class="logo-2">Studio</span></a>
+        <ul class="site-nav">
                 <li><a href="./index.html">Студия</a></li>
-                <li><a href="./portfolio.html">Портфолио</a></li>
+                <li><a href="./portfolio.html" class="link current">Портфолио</a></li>
                 <li><a href="">Контакты</a></li>
             </ul>
         </nav>
-        <ul>
+    <ul class="auth-nav">
             <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
             <li><a href="tel:+380961111111">+380961111111</a></li>
         </ul>
@@ -30,11 +29,11 @@
       <section>
           <h1>Проекты</h1>
           <ul class="buttons-list">
-            <li><button type="button" class="filter-button">Все</button></li>
-            <li><button type="button" class="filter-button">Веб-сайты</button></li>
-            <li><button type="button" class="filter-button">Приложения</button></li>
-            <li><button type="button" class="filter-button">Дизайн</button></li>
-            <li><button type="button" class="filter-button">Маркетинг</button></li>
+            <li><button type="button" class="button secondary">Все</button></li>
+            <li><button type="button" class="button secondary">Веб-сайты</button></li>
+            <li><button type="button" class="button secondary">Приложения</button></li>
+            <li><button type="button" class="button secondary">Дизайн</button></li>
+            <li><button type="button" class="button secondary">Маркетинг</button></li>
           </ul>
           <ul class="project-list">
             <li><img src="./images/img-8.jpeg" alt="Веб-сайт" width="370"> <a href="">Технокряк</a>Веб-сайт</li>
